@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>K3 Image Gallery</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- =========================== 
+        HEADER 
+    ============================ -->
+    <header>
+      <h1>Image Gallery</h1>
+
+      <!-- Search -->
+      <section aria-label="Search images" class="search-section">
+        <label for="search-input" class="visually-hidden">Search images</label>
+        <input
+          type="text"
+          id="search-input"
+          placeholder="Search images..."
+          autocomplete="off"
+        />
+      </section>
+    </header>
+
+    <!-- ===========================
+    CATEGORY TABS
+    ============================ -->
+    <nav aria-label="Image categories">
+      <ul id="category-tabs" role="tablist">
+        <li role="presentation">
+          <button role="tab" data-category="all" aria-selected="true">
+            All
+          </button>
+        </li>
+        <li role="presentation">
+          <button role="tab" data-category="space">Space</button>
+        </li>
+        <li role="presentation">
+          <button role="tab" data-category="ocean">Ocean</button>
+        </li>
+        <li role="presentation">
+          <button role="tab" data-category="unique-landscape">
+            Unique Landscapes
+          </button>
+        </li>
+        <li role="presentation">
+          <button role="tab" data-category="world-structures">
+            World Structures
+          </button>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- ===========================
+       MAIN GALLERY
+    ============================ -->
+    <main>
+      <section id="gallery" aria-live="polite"></section>
+    </main>
+
+    <!-- ===========================
+       LIGHTBOX (MODAL)
+    ============================ -->
+    <section
+      id="lightbox"
+      class="hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Image viewer"
+    >
+      <button id="lightbox-close" aria-label="Close image">x</button>
+      <img id="lightbox-image" src="" alt="" />
+      <p id="lightbox-title"></p>
+    </section>
+
+    <!-- =========================== 
+        SCRIPTS 
+    ============================ -->
+    <script type="module" src="js/gallery.js"></script>
+  </body>
+</html>

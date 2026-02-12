@@ -1,0 +1,365 @@
+[
+  {
+    "id": "space-001",
+    "category": "space",
+    "title": "Asteroid Belt",
+    "alt": "Asteroid belt floating in deep space",
+    "thumbnail": "images/space/thumbs/asteroid-belt.webp",
+    "full": "images/space/full/asteroid-belt.webp",
+    "tags": ["asteroid", "space", "rocks"]
+  },
+  {
+    "id": "space-002",
+    "category": "space",
+    "title": "Astronaut Rover",
+    "alt": "Astronaut driving a rover on a rocky planet surface",
+    "thumbnail": "images/space/thumbs/astronaut-rover.webp",
+    "full": "images/space/full/astronaut-rover.webp",
+    "tags": ["astronaut", "rover", "planet"]
+  },
+  {
+    "id": "space-003",
+    "category": "space",
+    "title": "Black Hole",
+    "alt": "Massive black hole pulling in surrounding light",
+    "thumbnail": "images/space/thumbs/blackhole.webp",
+    "full": "images/space/full/blackhole.webp",
+    "tags": ["black hole", "cosmos", "gravity"]
+  },
+  {
+    "id": "space-004",
+    "category": "space",
+    "title": "Galaxy",
+    "alt": "Colorful spiral galaxy in deep space",
+    "thumbnail": "images/space/thumbs/galaxy.webp",
+    "full": "images/space/full/galaxy.webp",
+    "tags": ["galaxy", "stars", "cosmos"]
+  },
+  {
+    "id": "space-005",
+    "category": "space",
+    "title": "Jupiter",
+    "alt": "Close-up view of Jupiter and its swirling storms",
+    "thumbnail": "images/space/thumbs/jupiter.webp",
+    "full": "images/space/full/jupiter.webp",
+    "tags": ["jupiter", "planet", "gas giant"]
+  },
+  {
+    "id": "space-006",
+    "category": "space",
+    "title": "Solar Eclipse",
+    "alt": "Solar eclipse with glowing corona",
+    "thumbnail": "images/space/thumbs/solar-eclipse.webp",
+    "full": "images/space/full/solar-eclipse.webp",
+    "tags": ["eclipse", "sun", "moon"]
+  },
+  {
+    "id": "space-007",
+    "category": "space",
+    "title": "Space Visuals",
+    "alt": "Abstract colorful space visuals",
+    "thumbnail": "images/space/thumbs/space-visuals.webp",
+    "full": "images/space/full/space-visuals.webp",
+    "tags": ["nebula", "stars", "abstract"]
+  },
+  {
+    "id": "space-008",
+    "category": "space",
+    "title": "Space Scene 1",
+    "alt": "Deep space scene with stars and nebula",
+    "thumbnail": "images/space/thumbs/space1.webp",
+    "full": "images/space/full/space1.webp",
+    "tags": ["space", "nebula", "stars"]
+  },
+  {
+    "id": "space-009",
+    "category": "space",
+    "title": "Space Scene 2",
+    "alt": "Colorful cosmic cloud formation",
+    "thumbnail": "images/space/thumbs/space2.webp",
+    "full": "images/space/full/space2.webp",
+    "tags": ["cosmos", "cloud", "stars"]
+  },
+  {
+    "id": "space-010",
+    "category": "space",
+    "title": "Space Scene 3",
+    "alt": "Bright star field in deep space",
+    "thumbnail": "images/space/thumbs/space3.webp",
+    "full": "images/space/full/space3.webp",
+    "tags": ["stars", "space", "galaxy"]
+  },
+
+  {
+    "id": "ocean-001",
+    "category": "ocean",
+    "title": "Dolphin",
+    "alt": "Dolphin swimming underwater",
+    "thumbnail": "images/ocean/thumbs/dolphin.webp",
+    "full": "images/ocean/full/dolphin.webp",
+    "tags": ["dolphin", "ocean", "animal"]
+  },
+  {
+    "id": "ocean-002",
+    "category": "ocean",
+    "title": "Jellyfish",
+    "alt": "Glowing jellyfish floating in dark water",
+    "thumbnail": "images/ocean/thumbs/jellyfish.webp",
+    "full": "images/ocean/full/jellyfish.webp",
+    "tags": ["jellyfish", "ocean", "glow"]
+  },
+  {
+    "id": "ocean-003",
+    "category": "ocean",
+    "title": "Killer Whale",
+    "alt": "Killer whale swimming near the surface",
+    "thumbnail": "images/ocean/thumbs/killer-whale.webp",
+    "full": "images/ocean/full/killer-whale.webp",
+    "tags": ["orca", "whale", "ocean"]
+  },
+  {
+    "id": "ocean-004",
+    "category": "ocean",
+    "title": "Lionfish",
+    "alt": "Lionfish with striped fins underwater",
+    "thumbnail": "images/ocean/thumbs/lionfish.webp",
+    "full": "images/ocean/full/lionfish.webp",
+    "tags": ["lionfish", "reef", "ocean"]
+  },
+  {
+    "id": "ocean-005",
+    "category": "ocean",
+    "title": "Octopus",
+    "alt": "Octopus spreading its tentacles",
+    "thumbnail": "images/ocean/thumbs/octopus.webp",
+    "full": "images/ocean/full/octopus.webp",
+    "tags": ["octopus", "tentacles", "ocean"]
+  },
+  {
+    "id": "ocean-006",
+    "category": "ocean",
+    "title": "Seahorse",
+    "alt": "Seahorse floating near sea plants",
+    "thumbnail": "images/ocean/thumbs/seahorse.webp",
+    "full": "images/ocean/full/seahorse.webp",
+    "tags": ["seahorse", "ocean", "tiny"]
+  },
+  {
+    "id": "ocean-007",
+    "category": "ocean",
+    "title": "Sea Lion",
+    "alt": "Sea lion swimming gracefully underwater",
+    "thumbnail": "images/ocean/thumbs/sealion.webp",
+    "full": "images/ocean/full/sealion.webp",
+    "tags": ["sea lion", "ocean", "animal"]
+  },
+  {
+    "id": "ocean-008",
+    "category": "ocean",
+    "title": "Sea Turtle",
+    "alt": "Sea turtle gliding through clear blue water",
+    "thumbnail": "images/ocean/thumbs/seaturtle.webp",
+    "full": "images/ocean/full/seaturtle.webp",
+    "tags": ["turtle", "ocean", "swimming"]
+  },
+  {
+    "id": "ocean-009",
+    "category": "ocean",
+    "title": "Shark",
+    "alt": "Shark swimming in deep blue ocean",
+    "thumbnail": "images/ocean/thumbs/shark.webp",
+    "full": "images/ocean/full/shark.webp",
+    "tags": ["shark", "predator", "ocean"]
+  },
+  {
+    "id": "ocean-010",
+    "category": "ocean",
+    "title": "Starfish",
+    "alt": "Starfish resting on the ocean floor",
+    "thumbnail": "images/ocean/thumbs/starfish.webp",
+    "full": "images/ocean/full/starfish.webp",
+    "tags": ["starfish", "ocean", "reef"]
+  },
+
+  {
+    "id": "unique-001",
+    "category": "unique-landscape",
+    "title": "Cave Home",
+    "alt": "A home carved into a rocky cave wall",
+    "thumbnail": "images/unique-landscape/thumbs/cave-home.webp",
+    "full": "images/unique-landscape/full/cave-home.webp",
+    "tags": ["cave", "home", "rock"]
+  },
+  {
+    "id": "unique-002",
+    "category": "unique-landscape",
+    "title": "Circle Bridge",
+    "alt": "Bridge reflected in water forming a perfect circle",
+    "thumbnail": "images/unique-landscape/thumbs/circle-bridge.webp",
+    "full": "images/unique-landscape/full/circle-bridge.webp",
+    "tags": ["bridge", "reflection", "symmetry"]
+  },
+  {
+    "id": "unique-003",
+    "category": "unique-landscape",
+    "title": "Desert Dunes",
+    "alt": "Golden sand dunes under a clear sky",
+    "thumbnail": "images/unique-landscape/thumbs/desert-dunes.webp",
+    "full": "images/unique-landscape/full/desert-dunes.webp",
+    "tags": ["desert", "sand", "dunes"]
+  },
+  {
+    "id": "unique-004",
+    "category": "unique-landscape",
+    "title": "Ice Cave",
+    "alt": "Blue ice cave with glowing light",
+    "thumbnail": "images/unique-landscape/thumbs/ice-cave.webp",
+    "full": "images/unique-landscape/full/ice-cave.webp",
+    "tags": ["ice", "cave", "blue"]
+  },
+  {
+    "id": "unique-005",
+    "category": "unique-landscape",
+    "title": "Incan Pyramid",
+    "alt": "Ancient Incan pyramid in a mountainous landscape",
+    "thumbnail": "images/unique-landscape/thumbs/incan-pyramid.webp",
+    "full": "images/unique-landscape/full/incan-pyramid.webp",
+    "tags": ["pyramid", "inca", "ancient"]
+  },
+  {
+    "id": "unique-006",
+    "category": "unique-landscape",
+    "title": "Mount Fuji",
+    "alt": "Mount Fuji reflected in a calm lake",
+    "thumbnail": "images/unique-landscape/thumbs/mtfuji.webp",
+    "full": "images/unique-landscape/full/mtfuji.webp",
+    "tags": ["mountain", "fuji", "reflection"]
+  },
+  {
+    "id": "unique-007",
+    "category": "unique-landscape",
+    "title": "Nazca Lines",
+    "alt": "Aerial view of Nazca line geoglyphs",
+    "thumbnail": "images/unique-landscape/thumbs/nazca-lines.webp",
+    "full": "images/unique-landscape/full/nazca-lines.webp",
+    "tags": ["nazca", "geoglyph", "desert"]
+  },
+  {
+    "id": "unique-008",
+    "category": "unique-landscape",
+    "title": "Reflection Lake",
+    "alt": "Perfect mirror reflection of mountains on a lake",
+    "thumbnail": "images/unique-landscape/thumbs/reflection.webp",
+    "full": "images/unique-landscape/full/reflection.webp",
+    "tags": ["reflection", "lake", "mountains"]
+  },
+  {
+    "id": "unique-009",
+    "category": "unique-landscape",
+    "title": "Volcano",
+    "alt": "Volcano erupting with glowing lava",
+    "thumbnail": "images/unique-landscape/thumbs/volcano.webp",
+    "full": "images/unique-landscape/full/volcano.webp",
+    "tags": ["volcano", "lava", "eruption"]
+  },
+  {
+    "id": "unique-010",
+    "category": "unique-landscape",
+    "title": "Waterfall",
+    "alt": "Tall waterfall surrounded by lush greenery",
+    "thumbnail": "images/unique-landscape/thumbs/waterfall.webp",
+    "full": "images/unique-landscape/full/waterfall.webp",
+    "tags": ["waterfall", "nature", "green"]
+  },
+
+  {
+    "id": "structures-001",
+    "category": "world-structures",
+    "title": "Ancient Temple",
+    "alt": "Ancient stone temple surrounded by trees",
+    "thumbnail": "images/world-structures/thumbs/ancient-temple.webp",
+    "full": "images/world-structures/full/ancient-temple.webp",
+    "tags": ["temple", "ancient", "stone"]
+  },
+  {
+    "id": "structures-002",
+    "category": "world-structures",
+    "title": "Angkor Wat",
+    "alt": "Angkor Wat temple complex at sunrise",
+    "thumbnail": "images/world-structures/thumbs/angkor-wat.webp",
+    "full": "images/world-structures/full/angkor-wat.webp",
+    "tags": ["angkor wat", "temple", "cambodia"]
+  },
+  {
+    "id": "structures-003",
+    "category": "world-structures",
+    "title": "Great Wall of China",
+    "alt": "Great Wall of China stretching across mountains",
+    "thumbnail": "images/world-structures/thumbs/great-wall-of-china.webp",
+    "full": "images/world-structures/full/great-wall-of-china.webp",
+    "tags": ["great wall", "china", "historic"]
+  },
+  {
+    "id": "structures-004",
+    "category": "world-structures",
+    "title": "Leaning Tower of Pisa",
+    "alt": "The Leaning Tower of Pisa under a blue sky",
+    "thumbnail": "images/world-structures/thumbs/leaning-tower-of-pisa.webp",
+    "full": "images/world-structures/full/leaning-tower-of-pisa.webp",
+    "tags": ["pisa", "tower", "italy"]
+  },
+  {
+    "id": "structures-005",
+    "category": "world-structures",
+    "title": "Machu Picchu",
+    "alt": "Machu Picchu ruins in the mountains",
+    "thumbnail": "images/world-structures/thumbs/machu-picchu.webp",
+    "full": "images/world-structures/full/machu-picchu.webp",
+    "tags": ["machu picchu", "inca", "ruins"]
+  },
+  {
+    "id": "structures-006",
+    "category": "world-structures",
+    "title": "Notre Dame",
+    "alt": "Notre Dame cathedral with gothic architecture",
+    "thumbnail": "images/world-structures/thumbs/notre-dame.webp",
+    "full": "images/world-structures/full/notre-dame.webp",
+    "tags": ["notre dame", "cathedral", "gothic"]
+  },
+  {
+    "id": "structures-007",
+    "category": "world-structures",
+    "title": "Parthenon",
+    "alt": "The Parthenon temple in Athens",
+    "thumbnail": "images/world-structures/thumbs/parthenon.webp",
+    "full": "images/world-structures/full/parthenon.webp",
+    "tags": ["parthenon", "greece", "temple"]
+  },
+  {
+    "id": "structures-008",
+    "category": "world-structures",
+    "title": "Petra",
+    "alt": "The carved stone facade of Petra in Jordan",
+    "thumbnail": "images/world-structures/thumbs/petra-in-jordan.webp",
+    "full": "images/world-structures/full/petra-in-jordan.webp",
+    "tags": ["petra", "jordan", "carved"]
+  },
+  {
+    "id": "structures-009",
+    "category": "world-structures",
+    "title": "Pyramids",
+    "alt": "The pyramids of Giza under a bright sky",
+    "thumbnail": "images/world-structures/thumbs/pyramids.webp",
+    "full": "images/world-structures/full/pyramids.webp",
+    "tags": ["pyramids", "egypt", "ancient"]
+  },
+  {
+    "id": "structures-010",
+    "category": "world-structures",
+    "title": "Taj Mahal",
+    "alt": "The Taj Mahal reflected in its long pool",
+    "thumbnail": "images/world-structures/thumbs/taj-mahal.webp",
+    "full": "images/world-structures/full/taj-mahal.webp",
+    "tags": ["taj mahal", "india", "marble"]
+  }
+]
