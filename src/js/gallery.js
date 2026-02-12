@@ -2,6 +2,9 @@ import { loadImagesData } from "./dataLoader.js";
 import { filterBySearch } from "./search.js";
 import { filterByCategory } from "./filter.js";
 
+let currentIndex = 0;
+let allImages = [];
+
 // ===============================
 // Create a single image card
 // ===============================
@@ -71,12 +74,44 @@ function openLightbox(image) {
   const lightboxImg = document.getElementById("lightbox-image");
   const lightboxTitle = document.getElementById("lightbox-title");
 
+  // Save index for arrow navigation
+  currentIndex = allImages.indexOf(image);
+
   lightboxImg.src = image.full;
   lightboxImg.alt = image.alt;
   lightboxTitle.textContent = image.title;
 
   lightbox.classList.remove("hidden");
 }
+
+function showImageByIndex(index) {
+  const image = allImages[index];
+  const lightboxImg = document.getElementById("lightbox-image");
+  const lightboxTitle = document.getElementById("lightbox-title");
+
+  lightboxImg.src = image.full;
+  lightboxImg.alt = image.alt;
+  lightboxTitle.textContent = image.title;
+}
+
+document.addEventListener("keydown", (e) => {
+  const lightbox = document.getElementById("lightbox");
+  if (lightbox.classList.contains("hidden")) return;
+
+  if (e.key === "Escape") {
+    lightbox.classList.add("hidden");
+  }
+
+  if (e.key === "ArrowRight") {
+    currentIndex = (currentIndex + 1) % allImages.length;
+    showImageByIndex(currentIndex);
+  }
+
+  if (e.key === "ArrowLeft") {
+    currentIndex = (currentIndex - 1 + allImages.length) % allImages.length;
+    showImageByIndex(currentIndex);
+  }
+});
 
 // Close button
 document.getElementById("lightbox-close").addEventListener("click", () => {
@@ -89,9 +124,9 @@ document.getElementById("lightbox-close").addEventListener("click", () => {
 async function initGallery() {
   try {
     const images = await loadImagesData();
+    allImages = images;
 
     renderGallery(images);
-
     setupCategoryTabs(images);
     setupSearch(images);
   } catch (err) {
