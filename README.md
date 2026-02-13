@@ -1,3 +1,5 @@
+![Tests](https://github.com/Jfoose89/K3U1-Image-Gallery/actions/workflows/test.yml/badge.svg)
+
 K3 Image Gallery
 A responsive, accessible image gallery built as part of the K3 course assignment.
 The project demonstrates clean modular JavaScript, semantic HTML, and modern CSS practices, including dynamic rendering, filtering, and a custom lightbox with keyboard navigation.
@@ -132,3 +134,4 @@ accessibility.js and dom.js are placeholders for future expansion
 The project avoids unnecessary <div> elements in favor of semantic tags
 
 The lightbox uses flexbox for reliable vertical centering
+
