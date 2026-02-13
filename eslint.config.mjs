@@ -21,6 +21,7 @@ export default defineConfig([
     languageOptions: {
       globals: {
         ...globals.jest,
+        global: "readonly",
       },
     },
   },
