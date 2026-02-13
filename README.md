@@ -43,46 +43,47 @@ ARIA roles for tabs and dialog
 Project Structure
 
 src/
-  data/
-    images.json
-  images/
-    (image folders)
-  js/
-    dataLoader.js
-    gallery.js
-    filter.js
-    search.js
-    accessibility.js (placeholder)
-    dom.js (placeholder)
-  index.html
-  styles.css
+data/
+images.json
+images/
+(image folders)
+js/
+dataLoader.js
+gallery.js
+filter.js
+search.js
+accessibility.js (placeholder)
+dom.js (placeholder)
+index.html
+styles.css
 
 tests/
-  data.test.js
-  filter.test.js
-  gallery.test.js
-  search.test.js
+data.test.js
+filter.test.js
+gallery.test.js
+search.test.js
 Hidden labels for search input
 
 Keyboard navigation support
 
 How It Works
+
 1. Data Loading
-dataLoader.js fetches and validates images.json.
-It ensures each image object contains all required fields.
+   dataLoader.js fetches and validates images.json.
+   It ensures each image object contains all required fields.
 
 2. Rendering
-gallery.js dynamically creates image cards and injects them into the DOM.
+   gallery.js dynamically creates image cards and injects them into the DOM.
 
 3. Filtering
-filter.js handles category filtering
+   filter.js handles category filtering
 
 search.js handles text‑based filtering
 
 Both are pure functions and fully testable
 
 4. Lightbox
-The lightbox opens when an image is clicked and supports:
+   The lightbox opens when an image is clicked and supports:
 
 ESC to close
 
@@ -120,6 +121,8 @@ CSS3 (responsive grid + flexbox)
 JavaScript (ES modules)
 
 Jest (unit testing)
+
+Added test.yml for .github actions
 
 JSON (data source)
 
